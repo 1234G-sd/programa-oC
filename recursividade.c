@@ -4,16 +4,14 @@
 
 void recursivo (int numero) {
 
-    if(numero > 0){
-     printf("%d\n", numero);
+if ( numero > 10){
 
-     recursivo(numero -1);
+printf("%d\n", numero);
 
+recursivo(numero - 1);
+}
 
-    }
-
-    printf("\n");
-
+printf("\n");
 
 }
 
@@ -21,7 +19,7 @@ void recursivo (int numero) {
 
 int main() {
 
-int quantidade = 10;
+int quantidade = 20;
 
 printf("Contagem Regressiva...\n");
 
@@ -30,5 +28,7 @@ recursivo(quantidade);
 
 
 
-return 0;
+
+
+return  0;
 }
